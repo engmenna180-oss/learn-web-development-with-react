@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks - SlideShow & CRUD</title>
+<link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <div class="task">
+    <h2>Task 1</h2>
+    <div class="buttons">
+        <button onclick="nextImage()">next</button>
+        <button onclick="prevImage()">previous</button>
+        <button onclick="startSlideShow()">slide show</button>
+        <button onclick="stopSlideShow()">stop</button>
+    </div>
+    <br>
+    <img id="slideshow" src="1.jpeg" alt="slideshow">
+    </div>
+
+
+
+
+
+    <div class="task">
+    <h2>Task 2 </h2>
+    <div class="form">
+        <input type="text" id="nameInput" placeholder="Enter name">
+        <input type="number" id="ageInput" placeholder="Enter age">
+        <button onclick="addData()">Add</button>
+    </div>
+    <table id="crudTable">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+
+<script src="lab4.js"></script>
+</body>
+</html>

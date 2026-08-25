@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1&2</title>
+    <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+
+    <h1>Task 1</h1>
+    <div class="cont1">
+        <img src="1.jpeg" onmouseover="showBig(this.src)" onmouseout="hideSmall()">
+        <img src="2.jpeg" onmouseover="showBig(this.src)" onmouseout="hideSmall()">
+        <img src="3.jpeg" onmouseover="showBig(this.src)" onmouseout="hideSmall()">
+    </div>
+    <div class="cont2">
+        <img id="bigImage" src="" alt="">
+    </div>
+    <hr>
+    
+    <h1>Task 2</h1>
+    <button onclick="getUsers()">Load Users</button>
+    <div id="usersList"></div>
+
+    <script src="lab5.js"></script>
+</body>
+</html>

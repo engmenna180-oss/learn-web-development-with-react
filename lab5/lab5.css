@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+.cont1 img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #dcdde4;
+}
+.cont2 img {
+    width: 400px;
+    height: 250px;
+    border: 3px solid #4f5056;
+    display: none; 
+    margin-top: 10px;
+}
+#usersList {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
